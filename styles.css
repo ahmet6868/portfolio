@@ -1,0 +1,288 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    background-color: #B9D9EB;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    color: #0047AB;
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    margin:0;
+}
+
+.name span {
+    color: black;
+     transition: 0.3s ease
+}
+
+.name:hover span {
+    transition: 0.3s ease;
+    color: #0047AB;
+} 
+.name:hover {
+    color: #1F305E;
+    cursor: pointer;
+}
+
+
+
+
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 25px;
+    color: #0047AB;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+
+
+.navigation a:hover {
+    color: #1F305E;
+    cursor: pointer;
+}
+
+
+
+.hire {
+    border-radius: 25px;
+    border-color: #4B9CD3;
+    padding: 1rem 2rem;
+    color: #0047AB ;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    background-color: whitesmoke;
+}
+
+.hire:hover {
+    color: #1F305E;
+    background-color: #5D76A9;
+    transition: 0.3s ease;
+}
+
+
+
+.home {
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+
+
+
+.description {
+    text-align: center  ;
+    margin-left: 450px;
+    margin-right:50px;
+    margin-bottom: 200;
+
+}
+
+.description h1 {
+    font-size: 30px;
+  font-family: "Poppins", sans-serif;
+
+}
+.description h2 {
+    font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.write{
+    border-radius: 25px;
+    border-color: #4B9CD3;
+    padding: 1rem 2rem;
+    color: #0047AB ;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    background-color: whitesmoke;
+}
+
+.write:hover {
+    color: #1F305E;
+    background-color: #5D76A9;
+    transition: 0.3s ease;
+}
+
+.call {
+    margin-right: 35px;
+    border-radius: 25px;
+    border-color: #4B9CD3;
+    padding: 1rem 2rem;
+    color: #0047AB ;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    background-color: whitesmoke;
+}
+
+.call:hover {
+    color: #1F305E;
+    background-color: #5D76A9;
+    transition: 0.3s ease;
+}
+
+
+
+
+
+.img {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin-left:  150px;
+    margin-right: 500px;
+}
+
+.ahmet {
+    width: 650px;
+    height: auto;
+}
+
+
+.learning {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.cpp,
+.opengl {
+    border: 3px solid;
+    border-radius: 20px;
+    width: 450px;
+    height: 350px;
+    justify-content: center;  
+}
+
+.cpp p,
+.opengl p {
+    margin: 0;
+}
+
+.cppicon {
+    height: 144px;
+    width: 144px;
+}
+.opengl_icon {
+    height: 144px;
+    width: 144px;
+}
+
+
+.title {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.titles {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    margin-top: 500px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+.education {
+    margin-left: 335px;
+    border: 3px solid;
+    border-radius: 20px;
+    width: 450px;
+    height: 450px;
+}
+
+.right,
+.title_right,
+.pharagraph {
+    text-align: right;
+}
+
+
+
+.experience {
+    margin-top: -450px;
+    border: 3px solid;
+    border-radius: 20px;
+    height: 450px;
+    width: 450px;
+    margin-left: 1110px;
+}
+
+.left,
+.title_left,
+.pharagraph_left {
+    text-align: right;
+}
+
+.document_title {
+    margin-top: 300px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.documents {
+    border: 3px solid;
+    margin-left: 320px;
+    border-radius: 20px;
+    width: 1230px;
+    height: 700px;
+}
+
+.noten {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
